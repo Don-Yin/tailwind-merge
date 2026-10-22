@@ -1,0 +1,225 @@
+{
+  "phase": "base",
+  "baseCommit": "8396cc3d1f18c143a608a08ce8d2ca7487aa7b75",
+  "validatorSha256": "8f20b8873fa9a25f3099f20aba9af7d804593be31372339cafc141e5ea61e3e5",
+  "nodeVersion": "v24.18.1",
+  "tailwindVersion": "4.3.3",
+  "cases": [
+    {
+      "functionName": "contrast-color()",
+      "label": "font size, size first",
+      "input": [
+        "text-[12px]",
+        "text-[contrast-color(hsl(0_0%_0%))]"
+      ],
+      "expected": "text-[12px] text-[contrast-color(hsl(0_0%_0%))]",
+      "actual": "text-[contrast-color(hsl(0_0%_0%))]",
+      "passed": false
+    },
+    {
+      "functionName": "contrast-color()",
+      "label": "font size, color first",
+      "input": [
+        "text-[contrast-color(hsl(0_0%_0%))]",
+        "text-[12px]"
+      ],
+      "expected": "text-[contrast-color(hsl(0_0%_0%))] text-[12px]",
+      "actual": "text-[12px]",
+      "passed": false
+    },
+    {
+      "functionName": "contrast-color()",
+      "label": "color replacement, arbitrary last",
+      "input": [
+        "text-red-500",
+        "text-[contrast-color(hsl(0_0%_0%))]"
+      ],
+      "expected": "text-[contrast-color(hsl(0_0%_0%))]",
+      "actual": "text-red-500 text-[contrast-color(hsl(0_0%_0%))]",
+      "passed": false
+    },
+    {
+      "functionName": "contrast-color()",
+      "label": "color replacement, named last",
+      "input": [
+        "text-[contrast-color(hsl(0_0%_0%))]",
+        "text-red-500"
+      ],
+      "expected": "text-red-500",
+      "actual": "text-[contrast-color(hsl(0_0%_0%))] text-red-500",
+      "passed": false
+    },
+    {
+      "functionName": "contrast-color()",
+      "label": "border width, size first",
+      "input": [
+        "border-2",
+        "border-[contrast-color(hsl(0_0%_0%))]"
+      ],
+      "expected": "border-2 border-[contrast-color(hsl(0_0%_0%))]",
+      "actual": "border-[contrast-color(hsl(0_0%_0%))]",
+      "passed": false
+    },
+    {
+      "functionName": "contrast-color()",
+      "label": "border width, color first",
+      "input": [
+        "border-[contrast-color(hsl(0_0%_0%))]",
+        "border-2"
+      ],
+      "expected": "border-[contrast-color(hsl(0_0%_0%))] border-2",
+      "actual": "border-2",
+      "passed": false
+    },
+    {
+      "functionName": "contrast-color()",
+      "label": "stroke width, size first",
+      "input": [
+        "stroke-2",
+        "stroke-[contrast-color(hsl(0_0%_0%))]"
+      ],
+      "expected": "stroke-2 stroke-[contrast-color(hsl(0_0%_0%))]",
+      "actual": "stroke-[contrast-color(hsl(0_0%_0%))]",
+      "passed": false
+    },
+    {
+      "functionName": "contrast-color()",
+      "label": "stroke width, color first",
+      "input": [
+        "stroke-[contrast-color(hsl(0_0%_0%))]",
+        "stroke-2"
+      ],
+      "expected": "stroke-[contrast-color(hsl(0_0%_0%))] stroke-2",
+      "actual": "stroke-2",
+      "passed": false
+    },
+    {
+      "functionName": "device-cmyk()",
+      "label": "font size, size first",
+      "input": [
+        "text-[12px]",
+        "text-[device-cmyk(0%_0%_0%_100%)]"
+      ],
+      "expected": "text-[12px] text-[device-cmyk(0%_0%_0%_100%)]",
+      "actual": "text-[device-cmyk(0%_0%_0%_100%)]",
+      "passed": false
+    },
+    {
+      "functionName": "device-cmyk()",
+      "label": "font size, color first",
+      "input": [
+        "text-[device-cmyk(0%_0%_0%_100%)]",
+        "text-[12px]"
+      ],
+      "expected": "text-[device-cmyk(0%_0%_0%_100%)] text-[12px]",
+      "actual": "text-[12px]",
+      "passed": false
+    },
+    {
+      "functionName": "device-cmyk()",
+      "label": "color replacement, arbitrary last",
+      "input": [
+        "text-red-500",
+        "text-[device-cmyk(0%_0%_0%_100%)]"
+      ],
+      "expected": "text-[device-cmyk(0%_0%_0%_100%)]",
+      "actual": "text-red-500 text-[device-cmyk(0%_0%_0%_100%)]",
+      "passed": false
+    },
+    {
+      "functionName": "device-cmyk()",
+      "label": "color replacement, named last",
+      "input": [
+        "text-[device-cmyk(0%_0%_0%_100%)]",
+        "text-red-500"
+      ],
+      "expected": "text-red-500",
+      "actual": "text-[device-cmyk(0%_0%_0%_100%)] text-red-500",
+      "passed": false
+    },
+    {
+      "functionName": "device-cmyk()",
+      "label": "border width, size first",
+      "input": [
+        "border-2",
+        "border-[device-cmyk(0%_0%_0%_100%)]"
+      ],
+      "expected": "border-2 border-[device-cmyk(0%_0%_0%_100%)]",
+      "actual": "border-[device-cmyk(0%_0%_0%_100%)]",
+      "passed": false
+    },
+    {
+      "functionName": "device-cmyk()",
+      "label": "border width, color first",
+      "input": [
+        "border-[device-cmyk(0%_0%_0%_100%)]",
+        "border-2"
+      ],
+      "expected": "border-[device-cmyk(0%_0%_0%_100%)] border-2",
+      "actual": "border-2",
+      "passed": false
+    },
+    {
+      "functionName": "device-cmyk()",
+      "label": "stroke width, size first",
+      "input": [
+        "stroke-2",
+        "stroke-[device-cmyk(0%_0%_0%_100%)]"
+      ],
+      "expected": "stroke-2 stroke-[device-cmyk(0%_0%_0%_100%)]",
+      "actual": "stroke-[device-cmyk(0%_0%_0%_100%)]",
+      "passed": false
+    },
+    {
+      "functionName": "device-cmyk()",
+      "label": "stroke width, color first",
+      "input": [
+        "stroke-[device-cmyk(0%_0%_0%_100%)]",
+        "stroke-2"
+      ],
+      "expected": "stroke-[device-cmyk(0%_0%_0%_100%)] stroke-2",
+      "actual": "stroke-2",
+      "passed": false
+    }
+  ],
+  "controls": [
+    {
+      "input": [
+        "text-[12px]",
+        "text-[contrast-color(red)]"
+      ],
+      "expected": "text-[12px] text-[contrast-color(red)]",
+      "actual": "text-[12px] text-[contrast-color(red)]",
+      "passed": true
+    },
+    {
+      "input": [
+        "text-[12px]",
+        "text-[rgb(0%_0%_0%)]"
+      ],
+      "expected": "text-[12px] text-[rgb(0%_0%_0%)]",
+      "actual": "text-[12px] text-[rgb(0%_0%_0%)]",
+      "passed": true
+    }
+  ],
+  "cssEvidence": [
+    {
+      "functionName": "contrast-color()",
+      "classes": [
+        "text-[12px]",
+        "text-[contrast-color(hsl(0_0%_0%))]"
+      ],
+      "css": "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n.text-\\[12px\\] {\n  font-size: 12px;\n}\n.text-\\[contrast-color\\(hsl\\(0_0\\%_0\\%\\)\\)\\] {\n  color: contrast-color(hsl(0 0% 0%));\n}\n"
+    },
+    {
+      "functionName": "device-cmyk()",
+      "classes": [
+        "text-[12px]",
+        "text-[device-cmyk(0%_0%_0%_100%)]"
+      ],
+      "css": "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n.text-\\[12px\\] {\n  font-size: 12px;\n}\n.text-\\[device-cmyk\\(0\\%_0\\%_0\\%_100\\%\\)\\] {\n  color: device-cmyk(0% 0% 0% 100%);\n}\n"
+    }
+  ],
+  "passed": 0,
+  "failed": 16
+}
