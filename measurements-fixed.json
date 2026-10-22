@@ -1,0 +1,342 @@
+{
+  "phase": "fixed",
+  "measuredAt": "2026-10-22T19:30:30.723Z",
+  "nodeVersion": "v24.18.1",
+  "tailwindVersion": "4.3.3",
+  "baseCommit": "8396cc3d1f18c143a608a08ce8d2ca7487aa7b75",
+  "parserSha256": "f05caaf94c35ef08d99c87c78746213af659f7b22c85c63571b284c7ef154f70",
+  "passed": 22,
+  "total": 22,
+  "measurements": [
+    {
+      "id": 0,
+      "label": "Data selector: [",
+      "first": "data-[label='[']:p-2",
+      "second": "data-[label='[']:p-4",
+      "expected": "data-[label='[']:p-4",
+      "actual": "data-[label='[']:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.data-\\[label\\=\\'\\[\\'\\]\\:p-2)[data-label='['] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.data-\\[label\\=\\'\\[\\'\\]\\:p-4)[data-label='['] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 1,
+      "label": null,
+      "first": "data-[label=']']:p-2",
+      "second": "data-[label=']']:p-4",
+      "expected": "data-[label=']']:p-4",
+      "actual": "data-[label=']']:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.data-\\[label\\=\\'\\]\\'\\]\\:p-2)[data-label=']'] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.data-\\[label\\=\\'\\]\\'\\]\\:p-4)[data-label=']'] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 2,
+      "label": null,
+      "first": "data-[label='(']:p-2",
+      "second": "data-[label='(']:p-4",
+      "expected": "data-[label='(']:p-4",
+      "actual": "data-[label='(']:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\'\\(\\'\\]\\:p-2[data-label='('] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\'\\(\\'\\]\\:p-4[data-label='('] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 3,
+      "label": null,
+      "first": "data-[label=')']:p-2",
+      "second": "data-[label=')']:p-4",
+      "expected": "data-[label=')']:p-4",
+      "actual": "data-[label=')']:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\'\\)\\'\\]\\:p-2[data-label=')'] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\'\\)\\'\\]\\:p-4[data-label=')'] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 4,
+      "label": null,
+      "first": "data-[label=\"[\"]:p-2",
+      "second": "data-[label=\"[\"]:p-4",
+      "expected": "data-[label=\"[\"]:p-4",
+      "actual": "data-[label=\"[\"]:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.data-\\[label\\=\\\"\\[\\\"\\]\\:p-2)[data-label=\"[\"] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.data-\\[label\\=\\\"\\[\\\"\\]\\:p-4)[data-label=\"[\"] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Double quote: )",
+      "first": "data-[label=\")\"]:p-2",
+      "second": "data-[label=\")\"]:p-4",
+      "expected": "data-[label=\")\"]:p-4",
+      "actual": "data-[label=\")\"]:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\\"\\)\\\"\\]\\:p-2[data-label=\")\"] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\\"\\)\\\"\\]\\:p-4[data-label=\")\"] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 6,
+      "label": "Arbitrary variant: [",
+      "first": "[&[data-label='[']]:p-2",
+      "second": "[&[data-label='[']]:p-4",
+      "expected": "[&[data-label='[']]:p-4",
+      "actual": "[&[data-label='[']]:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.\\[\\&\\[data-label\\=\\'\\[\\'\\]\\]\\:p-2)[data-label='['] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.\\[\\&\\[data-label\\=\\'\\[\\'\\]\\]\\:p-4)[data-label='['] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 7,
+      "label": null,
+      "first": "[&[data-label=']']]:p-2",
+      "second": "[&[data-label=']']]:p-4",
+      "expected": "[&[data-label=']']]:p-4",
+      "actual": "[&[data-label=']']]:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.\\[\\&\\[data-label\\=\\'\\]\\'\\]\\]\\:p-2)[data-label=']'] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.\\[\\&\\[data-label\\=\\'\\]\\'\\]\\]\\:p-4)[data-label=']'] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 8,
+      "label": "Arbitrary variant: (",
+      "first": "[&[data-label='(']]:p-2",
+      "second": "[&[data-label='(']]:p-4",
+      "expected": "[&[data-label='(']]:p-4",
+      "actual": "[&[data-label='(']]:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.\\[\\&\\[data-label\\=\\'\\(\\'\\]\\]\\:p-2[data-label='('] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.\\[\\&\\[data-label\\=\\'\\(\\'\\]\\]\\:p-4[data-label='('] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 9,
+      "label": null,
+      "first": "[&[data-label=')']]:p-2",
+      "second": "[&[data-label=')']]:p-4",
+      "expected": "[&[data-label=')']]:p-4",
+      "actual": "[&[data-label=')']]:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.\\[\\&\\[data-label\\=\\'\\)\\'\\]\\]\\:p-2[data-label=')'] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.\\[\\&\\[data-label\\=\\'\\)\\'\\]\\]\\:p-4[data-label=')'] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 10,
+      "label": "Escaped quote: [",
+      "first": "data-[label='it\\'s[']:p-2",
+      "second": "data-[label='it\\'s[']:p-4",
+      "expected": "data-[label='it\\'s[']:p-4",
+      "actual": "data-[label='it\\'s[']:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.data-\\[label\\=\\'it\\\\\\'s\\[\\'\\]\\:p-2)[data-label='it\\'s['] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.data-\\[label\\=\\'it\\\\\\'s\\[\\'\\]\\:p-4)[data-label='it\\'s['] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 11,
+      "label": null,
+      "first": "data-[label=\"say\\\"(\"]:p-2",
+      "second": "data-[label=\"say\\\"(\"]:p-4",
+      "expected": "data-[label=\"say\\\"(\"]:p-4",
+      "actual": "data-[label=\"say\\\"(\"]:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\\"say\\\\\\\"\\(\\\"\\]\\:p-2[data-label=\"say\\\"(\"] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\\"say\\\\\\\"\\(\\\"\\]\\:p-4[data-label=\"say\\\"(\"] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 12,
+      "label": null,
+      "first": "data-[label='\"[']:p-2",
+      "second": "data-[label='\"[']:p-4",
+      "expected": "data-[label='\"[']:p-4",
+      "actual": "data-[label='\"[']:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.data-\\[label\\=\\'\\\"\\[\\'\\]\\:p-2)[data-label='\"['] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n:is(.data-\\[label\\=\\'\\\"\\[\\'\\]\\:p-4)[data-label='\"['] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 13,
+      "label": null,
+      "first": "data-[label=\"'(\"]:p-2",
+      "second": "data-[label=\"'(\"]:p-4",
+      "expected": "data-[label=\"'(\"]:p-4",
+      "actual": "data-[label=\"'(\"]:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\\"\\'\\(\\\"\\]\\:p-2[data-label=\"'(\"] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\\"\\'\\(\\\"\\]\\:p-4[data-label=\"'(\"] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 14,
+      "label": null,
+      "first": "data-[label='\\\\']:p-2",
+      "second": "data-[label='\\\\']:p-4",
+      "expected": "data-[label='\\\\']:p-4",
+      "actual": "data-[label='\\\\']:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\'\\\\\\\\\\'\\]\\:p-2[data-label='\\\\'] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\'\\\\\\\\\\'\\]\\:p-4[data-label='\\\\'] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 15,
+      "label": "Plain-text control",
+      "first": "data-[label='open']:p-2",
+      "second": "data-[label='open']:p-4",
+      "expected": "data-[label='open']:p-4",
+      "actual": "data-[label='open']:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\'open\\'\\]\\:p-2[data-label='open'] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\'open\\'\\]\\:p-4[data-label='open'] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 16,
+      "label": null,
+      "first": "data-[label=\\']:p-2",
+      "second": "data-[label=\\']:p-4",
+      "expected": "data-[label=\\']:p-4",
+      "actual": "data-[label=\\']:p-4",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\\\\\'\\]\\:p-2[data-label=\"\\'\"] {\n  padding: calc(var(--spacing) * 2);\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n:root, :host {\n  --spacing: 0.25rem;\n}\n.data-\\[label\\=\\\\\\'\\]\\:p-4[data-label=\"\\'\"] {\n  padding: calc(var(--spacing) * 4);\n}\n"
+      ]
+    },
+    {
+      "id": 17,
+      "label": "Content string: ]:",
+      "first": "content-[']:_hello']",
+      "second": "content-['world']",
+      "expected": "content-['world']",
+      "actual": "content-['world']",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n@layer properties;\n.content-\\[\\'\\]\\:_hello\\'\\] {\n  --tw-content: ']: hello';\n  content: var(--tw-content);\n}\n@property --tw-content {\n  syntax: \"*\";\n  inherits: false;\n  initial-value: \"\";\n}\n@layer properties {\n  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {\n    *, ::before, ::after, ::backdrop {\n      --tw-content: \"\";\n    }\n  }\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n@layer properties;\n.content-\\[\\'world\\'\\] {\n  --tw-content: 'world';\n  content: var(--tw-content);\n}\n@property --tw-content {\n  syntax: \"*\";\n  inherits: false;\n  initial-value: \"\";\n}\n@layer properties {\n  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {\n    *, ::before, ::after, ::backdrop {\n      --tw-content: \"\";\n    }\n  }\n}\n"
+      ]
+    },
+    {
+      "id": 18,
+      "label": null,
+      "first": "content-[\"]:_hello\"]",
+      "second": "content-['world']",
+      "expected": "content-['world']",
+      "actual": "content-['world']",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n@layer properties;\n.content-\\[\\\"\\]\\:_hello\\\"\\] {\n  --tw-content: \"]: hello\";\n  content: var(--tw-content);\n}\n@property --tw-content {\n  syntax: \"*\";\n  inherits: false;\n  initial-value: \"\";\n}\n@layer properties {\n  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {\n    *, ::before, ::after, ::backdrop {\n      --tw-content: \"\";\n    }\n  }\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n@layer properties;\n.content-\\[\\'world\\'\\] {\n  --tw-content: 'world';\n  content: var(--tw-content);\n}\n@property --tw-content {\n  syntax: \"*\";\n  inherits: false;\n  initial-value: \"\";\n}\n@layer properties {\n  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {\n    *, ::before, ::after, ::backdrop {\n      --tw-content: \"\";\n    }\n  }\n}\n"
+      ]
+    },
+    {
+      "id": 19,
+      "label": null,
+      "first": "content-['it\\'s]:_hello']",
+      "second": "content-['world']",
+      "expected": "content-['world']",
+      "actual": "content-['world']",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n@layer properties;\n.content-\\[\\'it\\\\\\'s\\]\\:_hello\\'\\] {\n  --tw-content: 'it\\'s]: hello';\n  content: var(--tw-content);\n}\n@property --tw-content {\n  syntax: \"*\";\n  inherits: false;\n  initial-value: \"\";\n}\n@layer properties {\n  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {\n    *, ::before, ::after, ::backdrop {\n      --tw-content: \"\";\n    }\n  }\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n@layer properties;\n.content-\\[\\'world\\'\\] {\n  --tw-content: 'world';\n  content: var(--tw-content);\n}\n@property --tw-content {\n  syntax: \"*\";\n  inherits: false;\n  initial-value: \"\";\n}\n@layer properties {\n  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {\n    *, ::before, ::after, ::backdrop {\n      --tw-content: \"\";\n    }\n  }\n}\n"
+      ]
+    },
+    {
+      "id": 20,
+      "label": null,
+      "first": "content-[\"say\\\"]:_hello\"]",
+      "second": "content-['world']",
+      "expected": "content-['world']",
+      "actual": "content-['world']",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n@layer properties;\n.content-\\[\\\"say\\\\\\\"\\]\\:_hello\\\"\\] {\n  --tw-content: \"say\\\"]: hello\";\n  content: var(--tw-content);\n}\n@property --tw-content {\n  syntax: \"*\";\n  inherits: false;\n  initial-value: \"\";\n}\n@layer properties {\n  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {\n    *, ::before, ::after, ::backdrop {\n      --tw-content: \"\";\n    }\n  }\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n@layer properties;\n.content-\\[\\'world\\'\\] {\n  --tw-content: 'world';\n  content: var(--tw-content);\n}\n@property --tw-content {\n  syntax: \"*\";\n  inherits: false;\n  initial-value: \"\";\n}\n@layer properties {\n  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {\n    *, ::before, ::after, ::backdrop {\n      --tw-content: \"\";\n    }\n  }\n}\n"
+      ]
+    },
+    {
+      "id": 21,
+      "label": null,
+      "first": "content-['\\\\']",
+      "second": "content-['world']",
+      "expected": "content-['world']",
+      "actual": "content-['world']",
+      "retainedClasses": 1,
+      "expectedClasses": 1,
+      "correct": true,
+      "css": [
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n@layer properties;\n.content-\\[\\'\\\\\\\\\\'\\] {\n  --tw-content: '\\\\';\n  content: var(--tw-content);\n}\n@property --tw-content {\n  syntax: \"*\";\n  inherits: false;\n  initial-value: \"\";\n}\n@layer properties {\n  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {\n    *, ::before, ::after, ::backdrop {\n      --tw-content: \"\";\n    }\n  }\n}\n",
+        "/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */\n@layer properties;\n.content-\\[\\'world\\'\\] {\n  --tw-content: 'world';\n  content: var(--tw-content);\n}\n@property --tw-content {\n  syntax: \"*\";\n  inherits: false;\n  initial-value: \"\";\n}\n@layer properties {\n  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {\n    *, ::before, ::after, ::backdrop {\n      --tw-content: \"\";\n    }\n  }\n}\n"
+      ]
+    }
+  ]
+}
